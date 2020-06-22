@@ -14,7 +14,8 @@ import {
   AtModal,
   AtModalContent, 
   AtRadio,
-  AtSearchBar
+  AtSearchBar,
+  AtInput
 } from 'taro-ui'
 import 'taro-ui/dist/style/index.scss'
 
@@ -24,6 +25,8 @@ const {windowHeight,windowWidth}=Taro.getSystemInfoSync();
 const Index=(props)=> {
   return (
       <View>
+         <AtInput/>
+         <AtInput/>
       </View>
     )
 };
